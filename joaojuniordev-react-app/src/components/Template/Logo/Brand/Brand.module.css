@@ -1,0 +1,36 @@
+.leftSymbol,
+.rightSymbol {
+    color: #9c27b0;/*2b60f1*/
+    font-weight: bolder;
+}
+.logoText1,
+.logoText2,
+.brand{
+    font-weight: 700;
+    vertical-align: middle;
+}
+.logoText1{
+    margin-left: -2.8px; 
+    color: rgb(15, 15, 15);
+}
+
+.logoText2{
+    color: rgb(23, 169, 19);
+}
+
+.logoText2{
+    color: #e7e7e7;
+    background-color: rgb(23, 169, 19);
+    margin-left: 1.8px;
+    margin-right: -4px; 
+    padding: 0.5px 7.5px 0.1px 0px;
+    border-radius: 10px 20px 20px 2px;
+}
+
+
+.brand{
+    color: #9c27b0;
+    vertical-align: text-top;
+    margin-right: 0px;
+    font-size: 0.67em;
+}

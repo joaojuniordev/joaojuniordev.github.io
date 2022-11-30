@@ -1,0 +1,32 @@
+{
+    "corporateName":"JJRDEV",
+    "fantasyName":"JJR .DEV",
+    "address":{
+        "street":"Rua Central",
+        "number":"1000",
+        "zipCode":"60100200",
+        "district":"Bairro central",
+        "city":"Cidade",
+        "state":"UF",
+        "country":"Brasil",
+        "phone":"00 9 0000-0000",
+        "email":"fake@jjr.dev"
+    },
+    "redeSocial":[
+        {"src":"instagram.com/jjrdev","description":"Instagram"},
+        {"src":"facebook.com/jjrdev","description":"Facebook"},
+        {"src":"twitter.com/jjrdev","description":"Twitte"}
+    ],
+    "slogan":{
+        "main":"#Fique",
+        "splitMain":"Online",
+        "secondary":"#Full",
+        "splitSecondary":"Stack"
+    },
+    "style":{
+        "backgroundColor":"#63b3ed",
+        "backgroundColor2":"#004BAC",
+        "color":"#FFF",
+        "fontSize":".9em"
+    }
+}
