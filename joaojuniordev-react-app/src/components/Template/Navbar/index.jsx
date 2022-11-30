@@ -11,7 +11,7 @@ const Navbar = (props)=>{
     // console.log('Navbar', style)
     
     return (
-        <nav className={styles.navMenu}>
+        <nav className={styles.navMenu} style={style}>
             <MainMenu menu={menus.itemsMainMenu}/>  
         </nav>
     )
