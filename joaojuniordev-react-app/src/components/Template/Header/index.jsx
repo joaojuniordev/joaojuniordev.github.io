@@ -13,12 +13,12 @@ const Header = (props)=>{
         avatarInfo={}, 
         style={} 
     } = props
-    console.log('Header', style)
+    // console.log('Header', style)
     
-    const fantasyName = companyInfo.fantasyName.split(' ')
+    const fantasyName = companyInfo.fantasyName.split('.')
     const texts = {
         1: fantasyName[0],
-        2: fantasyName[1]
+        2: fantasyName[1] ? `.${fantasyName[1]}`: `.JJRDEV`
     }
 
     return (

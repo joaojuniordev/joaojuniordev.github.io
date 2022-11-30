@@ -7,8 +7,8 @@ const itemsMainMenu = [
     },
     {
         src:"/repositorios", 
-        description:"Repositórios", 
-        icon:"mdi mdi-calendar-check",
+        description:"Repo's", 
+        icon:"mdi mdi-source-repository-multiple",
         target:""
     },
 ]

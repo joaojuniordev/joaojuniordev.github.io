@@ -4,10 +4,10 @@ const Repo = (props) =>{
     const {
         style={}
     } = props
-    console.log('Repo', style)
+    // console.log('Repo', style)
 
     return(
-        <div className={styles.Repo}>
+        <div className={styles.Repo} style={style}>
             Repo
         </div>
     )

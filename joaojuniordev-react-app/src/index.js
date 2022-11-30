@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 // import { Provider } from 'react-redux'
 
-import { BrowserRouter, Routes } from './Routes'
+import { HashRouter, Routes } from './Routes'
 import Layout from './components/Template/Layout'
 // import store from './store'
 
@@ -12,10 +12,10 @@ import styleConfig from './data/customize/style.json'
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   // <Provider store={store}>
-    <BrowserRouter>
+    <HashRouter>
       <Layout style={styleConfig.customize1}>
         <Routes/>
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   // </Provider>
 )
