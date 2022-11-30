@@ -4,10 +4,10 @@ const Home = (props) =>{
     const {
         style={}
     } = props
-    console.log('Home', style)
+    // console.log('Home', style)
 
     return(
-        <div className={styles.home}>
+        <div className={styles.home} style={style}>
             Home
         </div>
     )

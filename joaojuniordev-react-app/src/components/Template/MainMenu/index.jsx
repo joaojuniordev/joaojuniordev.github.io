@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 
+
 const MainMenu = (props) =>{
     const { 
         menu=[], 
@@ -14,8 +15,9 @@ const MainMenu = (props) =>{
                 to={item.src}                 
                 onClick={onClose} 
                 // target={item.target}
+                style={{display:'flex', alignItems:'center', height:"100%"}}
                 >
-                    <span className={item.icon}> {item.description}</span>
+                    <span className={item.icon}> {item.description} </span>
                 </Link>
             ))
         }</>
