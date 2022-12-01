@@ -1,5 +1,5 @@
 import './Curriculum.css'
-
+import { WHATSAPP } from '../../config'
 import avatar from '../../assets/img/avatar.png'
 
 
@@ -10,7 +10,8 @@ const Header = (props)=>{
         summary="..."
     } = props
 
-    const domain = user.dominio
+    const domain  = user.dominio
+    const uri_zap = `${WHATSAPP.URI}+5585911112222&text=Olá dev, tudo bem???`
 
     return(
         <>
@@ -26,17 +27,17 @@ const Header = (props)=>{
                                 <div className="mb-2 text-capitalize">{ user.stack} - { user.linguagens}</div>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <a href="#">
+                                        <a href="/">
                                             <span className="mdi mdi-email"> {user.email}</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://web.whatsapp.com/send?phone=+5585986122373&text=Ola%20dev,%20tudo%20bem?" target="_blank">
+                                        <a href={uri_zap} target="_blank" rel="noreferrer">
                                             <span className="mdi mdi-whatsapp"> {user.fone}</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href={domain.href} target="_blank">
+                                        <a href={domain.href} target="_blank" rel="noreferrer">
                                             <span className={domain.icon}> {domain.user}</span>
                                         </a>
                                     </li>
@@ -47,7 +48,7 @@ const Header = (props)=>{
                                 {
                                     user.redesocial.map(({icon, href, user}, i)=>{
                                         return  <li key={i} className="mb-2">
-                                                    <a href={`${href}${user}`} target="_blank">
+                                                    <a href={`${href}${user}`} target="_blank" rel="noreferrer">
                                                         <span className={icon}> {user}</span>
                                                     </a>
                                                 </li>
