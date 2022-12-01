@@ -30,6 +30,11 @@ const CURRICULUM ={
   PATH: process.env.REACT_APP_PATH_CURRICULUM
 }
 
+const WHATSAPP = {
+  URI: "https://web.whatsapp.com/send?phone=",
+  URI_MODEL:"https://web.whatsapp.com/send?phone=+55911112222&text=Ola%20dev,%20tudo%20bem?"
+}
+
 // console.log("API... CONFIG", { SERVER })
 
 export { 
@@ -38,5 +43,6 @@ export {
   APP, 
   SERVER,
   CURRICULUM,
-
+  WHATSAPP,
+  
 }
