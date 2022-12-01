@@ -7,7 +7,7 @@ const itemsMainMenu = [
     },
     {
         src:"/curriculo", 
-        description:"Curriculo", 
+        description:"Currículo", 
         icon:"mdi mdi-card-account-details",
         target:""
     },

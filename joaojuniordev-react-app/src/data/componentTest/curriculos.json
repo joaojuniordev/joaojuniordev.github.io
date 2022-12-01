@@ -1,31 +1,32 @@
 [
   {
     "update":{"version":"1.0", "date":"30-11-2022"},
-    "usuario": {
+    "user": {
       "id": "1",
       "nome": "joão júnior",
       "profissao": "desenvolvedor web e mobile",
       "nivel": "jr",
       "stack": "full stack",
       "linguagens": "laravel, nodejs, react e reactnative",
-      "telefone": "+ 55 (21) 9XXXX-XXXX",
+      "fone": "+ 55 (21) 9XXXX-XXXX",
       "email": "email@email.com",
-      "cidade": "Cidade",
+      "cidate": "Cidade",
       "uf": "UF",
       "pais": "BRA",
       "data": "22/02/2020",
-      "imgAvatar": "avataaars2.svg",
+      "avatar": "avatar.png",
       "icon": "mdi mdi-language-java",
-      "redesocial":{
-        "linkedin":"/joaojuniordev",
-        "github":"/joaojuniordev",
-        "twitter":"/joaojuniordev",
-        "site":"dev.joaojr.tk"
-      }
+      "dominio":{"icon":"mdi mdi-sphere" , "href":"https://dev.joaojr.tk", "user":"dev.joaojr.tk"},
+      "redesocial":[
+        {"icon":"mdi mdi-linkedin" , "href":"https://linkedin.com/in" , "user":"/joaojuniordev"},
+        {"icon":"mdi mdi-github"   , "href":"https://github.com"       , "user":"/joaojuniordev"},
+        {"icon":"mdi mdi-twitter"  , "href":"https://twitter.com"      , "user":"/joaojuniordev"},
+        {"icon":"mdi mdi-instagram", "href":"https://instagram.com"    , "user":"/joaojuniordev"}
+      ]
     },
-    "resumo": "Resuma sua carreira aqui...",
+    "summary": "Resuma sua carreira aqui...",
 
-    "formacoes": [
+    "formations": [
       {
         "id": "1",
         "descricao": "Ciência da Computação",
@@ -35,7 +36,7 @@
         "semestreatual": "8º semestre"
       }
     ],
-    "experiencias": [
+    "experiences": [
       {
         "id": "4",
         "empresa": "IFCE",
@@ -84,7 +85,7 @@
         "tecnologias": ["espécie", "cartão de crédito", "cartão de débito"]
       }
     ],
-    "premios": [
+    "awards": [
       {
         "id": "1",
         "nome": "MoveIT-IFCE",
@@ -114,7 +115,7 @@
         "cargahoraria": "256h"
       }
     ],
-    "cursos": [
+    "courses": [
       {
         "id": "3",
         "empresa": "Udemy",
@@ -143,7 +144,7 @@
         "descricaofuncao": "Desenvolvimento de Web Full Stack. Frontend: HTM5, CSS3, jQuey, Bootstrap, AJAX e JavaScript. Backend: Java, JPS, CDI, Hibernate, MySQL, PostgreSQL e WildFly"
       }
     ],
-    "minicursos": [
+    "shortCourses": [
       {
         "id": "6",
         "autor": "Gustavo Web",
@@ -199,7 +200,7 @@
         "tecnologias": "Windows e hardware"
       }
     ],
-    "habilidades": [
+    "skills": [
       {
         "id": "1",
         "nome": "frontend",
@@ -252,11 +253,11 @@
         ]
       }
     ],
-    "idiomas": [
+    "languages": [
       { "id": "2", "descricao": "português", "status": "nativo", "nivel": 89 },
       { "id": "1", "descricao": "inglês", "status": "básico", "nivel": 49 }
     ],
-    "interesses": [
+    "interests": [
       { "id": "1", "descricao": "Back-end" },
       { "id": "2", "descricao": "Programação Web" },
       { "id": "3", "descricao": "Programação mobile" },
