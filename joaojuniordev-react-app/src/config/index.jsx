@@ -25,6 +25,18 @@ const SERVER = {
   PORT: SERVER_PORT,
 }
 
+const CURRICULUM ={
+  URI: process.env.REACT_APP_URI_CURRICULUM,
+  PATH: process.env.REACT_APP_PATH_CURRICULUM
+}
+
 // console.log("API... CONFIG", { SERVER })
 
-export { LOCALHOST, APP, SERVER }
+export { 
+  
+  LOCALHOST, 
+  APP, 
+  SERVER,
+  CURRICULUM,
+
+}

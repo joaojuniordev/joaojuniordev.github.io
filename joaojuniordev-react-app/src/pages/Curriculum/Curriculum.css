@@ -1,0 +1,107 @@
+.mainCurriculo {
+    margin: 12px 16px 0px 15px;
+    /*Retirando a margem do corpo*/
+    box-shadow: -2px 5px 24px #dde2e2, 12px 19px 2px rgb(223 222 222 / 10%),
+        -2px 15px 24px #545454, 12px 195px 2px rgb(195 195 195 / 20%);
+    /* Sobrear no Bootstrap: shadow-lg */
+    background-image: linear-gradient(to bottom,
+            transparent 0%, #a8a8a899 40%), url(../../assets/img/logo.png);
+    background-repeat: round repeat;
+    /* encaixa a imagem na div */
+    margin-top: 40px;
+    max-width: auto;
+    max-height: auto;
+    width: auto;
+    height: auto;
+}
+
+.mainCurriculo .curriculo-singlepage {
+    padding: 15px 0 55px 0;
+    background-color: #dcdcdc;
+}
+
+/* Curriculo */
+
+.curriculo {
+    word-wrap: break-word;/*nao deixa o texto sair da div*/
+}
+.curriculo-update{
+    font-size: 0.53rem;
+    text-align: right;
+    color: #b1d7ff;
+}
+.curriculo article {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.curriculo-header .container-img {
+    background-color: #f5eeee;
+    border-radius: 10%;
+}
+
+.curriculo-header .titulo {
+    background-color: rgb(68 88 120);
+}
+.curriculo-header .redesocial {
+    text-align: right;
+}
+.curriculo-resumo {
+    background-color: #c6cace;
+    color: #052442;
+}
+
+.curriculo article {
+    background-color: #ffffff;
+}
+
+.curriculo .curriculo-col-corpo {
+    font-family: inherit;
+    color: #434E5E;
+}
+
+.curriculo article h3 {
+    border-bottom: 1px solid #434E5E;
+}
+
+.curriculo-col-lateral {
+    background-color: #f0f0f0;
+    color: #434E5E;
+    text-align: left;
+}
+
+.curriculo-col-lateral .premios span {
+    color: #cdad4e;
+}
+
+.curriculo-header a {
+    color: #b1d7ff;
+}
+
+.badge-primary {
+    border-radius: 50px;
+    color: #fff;
+    background-color: #007bff;
+}
+
+
+/* CONPONENT QUERIES */
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+}
+  
+/* Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .curriculo-header .redesocial {
+        text-align: left;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 728px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {    
+}
+  
