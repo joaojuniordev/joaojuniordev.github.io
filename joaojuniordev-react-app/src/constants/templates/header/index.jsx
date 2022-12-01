@@ -6,6 +6,12 @@ const itemsMainMenu = [
         target:""
     },
     {
+        src:"/curriculo", 
+        description:"Curriculo", 
+        icon:"mdi mdi-card-account-details",
+        target:""
+    },
+    {
         src:"/repositorios", 
         description:"Repo's", 
         icon:"mdi mdi-source-repository-multiple",

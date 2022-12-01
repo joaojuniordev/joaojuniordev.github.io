@@ -1,0 +1,266 @@
+[
+  {
+    "update":{"version":"1.0", "date":"30-11-2022"},
+    "usuario": {
+      "id": "1",
+      "nome": "joão júnior",
+      "profissao": "desenvolvedor web e mobile",
+      "nivel": "jr",
+      "stack": "full stack",
+      "linguagens": "laravel, nodejs, react e reactnative",
+      "telefone": "+ 55 (21) 9XXXX-XXXX",
+      "email": "email@email.com",
+      "cidade": "Cidade",
+      "uf": "UF",
+      "pais": "BRA",
+      "data": "22/02/2020",
+      "imgAvatar": "avataaars2.svg",
+      "icon": "mdi mdi-language-java",
+      "redesocial":{
+        "linkedin":"/joaojuniordev",
+        "github":"/joaojuniordev",
+        "twitter":"/joaojuniordev",
+        "site":"dev.joaojr.tk"
+      }
+    },
+    "resumo": "Resuma sua carreira aqui...",
+
+    "formacoes": [
+      {
+        "id": "1",
+        "descricao": "Ciência da Computação",
+        "datainicio": "2015.1",
+        "datatermino": "2022.2",
+        "instituicao": "IFCE",
+        "semestreatual": "8º semestre"
+      }
+    ],
+    "experiencias": [
+      {
+        "id": "4",
+        "empresa": "IFCE",
+        "cargo": "Bolsista volutário",
+        "subcargo": "Dev back-end junior",
+        "dataadmissao": "2019.2",
+        "datademissao": "2022.1",
+        "descricaofuncao": "Desenvolvimento: API REST, Route (end-point, JWT-Auth Token), Camada de BD (Migrations, Seeders, Model, Relations), etc.",
+        "tecnologias": [
+          "Laravel",
+          "PHP",
+          "JWT_auth",
+          "Token",
+          "MySQL",
+          "VSCode"
+        ]
+      },
+      {
+        "id": "3",
+        "empresa": "Hospital distrital",
+        "cargo": "Agente administrativo",
+        "subcargo": "assistente de farmácia",
+        "dataadmissao": "2012.1",
+        "datademissao": "2013.2",
+        "descricaofuncao": "Ag. Administrativo: Recebimento de material medico-hospitalar, nota fiscal, entrada no sistema,etc. Auxiliar de farmácia: Abastecimento de material medico-hospitalar e medicamento.",
+        "tecnologias": ["PC", "impressora", "windows", "telefone", "excel"]
+      },
+      {
+        "id": "2",
+        "empresa": "auntônomo",
+        "cargo": "tec. manutenção de computadores",
+        "subcargo": "operador de micro",
+        "dataadmissao": "2008",
+        "datademissao": "2011",
+        "descricaofuncao": "Manutenção de PC: Formatação de S.O, limpeza, diagnoticos de defeitos, reposição de peças, etc. Operador: impressão de curriculos, faturas, impostos, digitação de trabalhos.",
+        "tecnologias": ["PC", "impressora", "S.O.", "Windows", "Ubuntu"]
+      },
+      {
+        "id": "1",
+        "empresa": "supermercado",
+        "cargo": "operador de caixa",
+        "subcargo": "Repositor",
+        "dataadmissao": "2004",
+        "datademissao": "2007",
+        "descricaofuncao": "Regristro de mercadores, organização do ambiente de trabalho, reposição de mercadoria e recebimento de pagamento.",
+        "tecnologias": ["espécie", "cartão de crédito", "cartão de débito"]
+      }
+    ],
+    "premios": [
+      {
+        "id": "1",
+        "nome": "MoveIT-IFCE",
+        "descricao": "Vencedor do Hackathon APM terminals 2019 com a equipe J3",
+        "datainicio": "2019.1",
+        "datatermino": "2019.1",
+        "cargahorario": "48h"
+      }
+    ],
+    "extras": [
+      {
+        "id": "2",
+        "empresa": "IFCE",
+        "cargo": "Volutário",
+        "dataadmissao": "2016.2",
+        "datatermino": "2016.2",
+        "descricaofuncao": "Desenvolvimento com IoT (Internet of Things) - NodeMCU Esp8266, Raspberry Pi 3B+ no LAESE (Laboratório de Eletrônica e Sistemas Embarcados)",
+        "cargahoraria": "240h"
+      },
+      {
+        "id": "1",
+        "empresa": "IFCE",
+        "cargo": "Monitor",
+        "dataadmissao": "2015.2",
+        "datatermino": "2016.1",
+        "descricaofuncao": "Monitor da cadeira do S1 Fundamentos da Programação com a linguagem Python",
+        "cargahoraria": "256h"
+      }
+    ],
+    "cursos": [
+      {
+        "id": "3",
+        "empresa": "Udemy",
+        "nome": "Curso Web Moderno Completo",
+        "datainicio": "2022.1",
+        "datatermino": "2022.2",
+        "descricaofuncao": "Desenvolvimento de Web Full Stack. Frontend: HTM5, CSS3, jQuey, Bootstrap, Webpack, AJAX, React e JavaScript(ES6). Backend: Node, Express, MySQL, PostgreSQL, MongoDB ",
+        "cargahoraria": "120h"
+      },
+      {
+        "id": "2",
+        "empresa": "Udemy",
+        "nome": "Desenvolvimento Web Completo",
+        "datainicio": "2020.1",
+        "datatermino": "2020.2",
+        "descricaofuncao": "Desenvolvimento de Web Full Stack. Frontend: HTM5, CSS3, jQuey, Bootstrap, AJAX e JavaScript. Backend: PHP, Apache, PDO, MySQL, PostgreSQL ",
+        "cargahoraria": "120h"
+      },
+      {
+        "id": "1",
+        "empresa": "Udemy",
+        "nome": "Java Web",
+        "datainicio": "2019.2",
+        "datatermino": "2019.2",
+        "cargahoraria": "120h",
+        "descricaofuncao": "Desenvolvimento de Web Full Stack. Frontend: HTM5, CSS3, jQuey, Bootstrap, AJAX e JavaScript. Backend: Java, JPS, CDI, Hibernate, MySQL, PostgreSQL e WildFly"
+      }
+    ],
+    "minicursos": [
+      {
+        "id": "6",
+        "autor": "Gustavo Web",
+        "nome": "Laravel TIPS",
+        "datainicio": "2021.2",
+        "datatermino": "2021.2",
+        "cargahoraria": "11h",
+        "tecnologias": "Laravel, Blade, Route, Verbo REST, Migrations, Model, Relations, JWT-Auth (Token), Spatie (ACL), Ajax"
+      },
+      {
+        "id": "5",
+        "autor": "Rodrigo Branas",
+        "nome": "AngularJS",
+        "datainicio": "2020.1",
+        "datatermino": "2020.1",
+        "cargahoraria": "8h",
+        "tecnologias": "AngularJS, Bootstrap 3, Nodejs, Javascript, VSCode"
+      },
+      {
+        "id": "4",
+        "autor": "Rodrigo Branas",
+        "nome": "Nodejs",
+        "datainicio": "2020.1",
+        "datatermino": "2020.1",
+        "cargahoraria": "3.6h",
+        "tecnologias": "Nodejs, JavaScript, Bash (Terminal Linux)"
+      },
+      {
+        "id": "3",
+        "autor": "Rodrigo Branas",
+        "nome": "JavaScript",
+        "datainicio": "2020.1",
+        "datatermino": "2020.1",
+        "cargahoraria": "4.5h",
+        "tecnologias": "JavaScript, Nodejs, Bash (Terminal Linux), VSCode"
+      },
+      {
+        "id": "2",
+        "autor": "Rodrigo Branas",
+        "nome": "Git",
+        "datainicio": "2020.1",
+        "datatermino": "2020.1",
+        "cargahoraria": "1.3h",
+        "tecnologias": "Git, GitHub, Bash (Terminal Linux)"
+      },
+      {
+        "id": "1",
+        "autor": "SENAC",
+        "nome": "Manutenção e Montagem de Computadores",
+        "datainicio": "2004.2",
+        "datatermino": "2004.2",
+        "cargahoraria": "600h",
+        "tecnologias": "Windows e hardware"
+      }
+    ],
+    "habilidades": [
+      {
+        "id": "1",
+        "nome": "frontend",
+        "tecnologias": [
+          { "nome": "HTML5", "nivel": 88 },
+          { "nome": "CSS3", "nivel": 78 },
+          { "nome": "JavaScript", "nivel": 69 },
+          { "nome": "AngularJS", "nivel": 70 },
+          { "nome": "React", "nivel": 65 },
+          { "nome": "React Native", "nivel": 65 },
+          { "nome": "Bootstrap", "nivel": 63 },
+          { "nome": "jQuery", "nivel": 45 },
+          { "nome": "JSON", "nivel": 71 },
+          { "nome": "AJAX", "nivel": 45 }
+        ]
+      },
+      {
+        "id": "2",
+        "nome": "backend",
+        "tecnologias": [
+          { "nome": "Nodejs", "nivel": 76 },
+          { "nome": "PHP", "nivel": 75 },
+          { "nome": "Laravel", "nivel": 71 },
+          { "nome": "JAVA", "nivel": 75 },
+          { "nome": "Springboot", "nivel": 61 },
+          { "nome": "JPA", "nivel": 65 },
+          { "nome": "Hibernate", "nivel": 68 },
+          { "nome": "CDI", "nivel": 53 },
+          { "nome": "WildFly", "nivel": 62 },
+          { "nome": "TomCat", "nivel": 50 },
+          { "nome": "PostgreSQL", "nivel": 81 },
+          { "nome": "MySQL", "nivel": 80 }
+        ]
+      },
+      {
+        "id": "3",
+        "nome": "ourtos",
+        "tecnologias": [
+          { "nome": "Git", "nivel": 76 },
+          { "nome": "GitHub", "nivel": 76 },
+          { "nome": "MVC", "nivel": 70 },
+          { "nome": "IoT", "nivel": 80 },
+          { "nome": "ESP8266", "nivel": 89 },
+          { "nome": "Raspberry Pi", "nivel": 77 },
+          { "nome": "Ubuntu", "nivel": 86 },
+          { "nome": "Windows", "nivel": 95 },
+          { "nome": "Python", "nivel": 74 },
+          { "nome": "Linguagem C", "nivel": 83 },
+          { "nome": "PHP", "nivel": 77 }
+        ]
+      }
+    ],
+    "idiomas": [
+      { "id": "2", "descricao": "português", "status": "nativo", "nivel": 89 },
+      { "id": "1", "descricao": "inglês", "status": "básico", "nivel": 49 }
+    ],
+    "interesses": [
+      { "id": "1", "descricao": "Back-end" },
+      { "id": "2", "descricao": "Programação Web" },
+      { "id": "3", "descricao": "Programação mobile" },
+      { "id": "4", "descricao": "Banco de dados" }
+    ]
+  }
+]
