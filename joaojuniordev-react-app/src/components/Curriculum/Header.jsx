@@ -15,11 +15,11 @@ const Header = (props)=>{
 
     return(
         <>
-            <div className="curriculumHeader row ">
-                <div className="curriculumAvatar col-md-2">
+            <div className="curriculumHeader row">
+                <div className="curriculumAvatar col-lg-2 col-md-3 col-sm-4">
                     <img className="mt-4 mb-3" src={avatar} alt="avatar"/>
                 </div>
-                <div className="titulo col-md-10 p-3">
+                <div className="curriculumInfo col-lg-10 col-md-9 col-sm-8 p-3">
                         <div className="d-flex justify-content-between text-left ">
                             <div className="userInfo">
                                 <h4 className="text-white text-uppercase">{ user.nome}</h4>
