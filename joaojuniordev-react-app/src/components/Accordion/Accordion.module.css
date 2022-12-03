@@ -1,0 +1,9 @@
+.accordion{
+    color: inherit;
+}
+.header{
+    background-color: var(--form-gray);
+}
+.body{
+    word-break: normal;
+}
