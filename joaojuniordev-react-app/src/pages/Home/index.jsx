@@ -20,7 +20,7 @@ const Home = (props) =>{
             <div className={styles.body}>
                 <MyCarousel />
                 <AlertDismiss message={"Tabela de exemplo."} style={{margin:"20px 0 0 0"}}/>
-                <MyTable style={{margin:"40px"}}/>
+                <MyTable style={{margin:"40px 0"}}/>
             </div>
         </div>
     )
