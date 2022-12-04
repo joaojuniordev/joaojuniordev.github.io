@@ -24,9 +24,7 @@
 .curriculumIcons{
     display: inline-flex;
     align-items: center;
-}
-.curriculumIcons small{
-    font-size: 0.78rem;
+    font-size: 0.82rem;
 }
 .curriculumInfo {
     background-color: rgb(68 88 120);
