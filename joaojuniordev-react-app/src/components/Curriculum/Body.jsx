@@ -21,7 +21,7 @@ const Body = (props) =>{
                                     <div className=" mb-2">
                                         <div className="d-flex flex-row justify-content-between pt-4">
                                             <h4 className="d-flex font-weight-bold mb-1">
-                                                {experience.cargo}<small className="text-muted">( {experience.subcargo} )</small>
+                                                {experience.cargo}<small className="text-muted">({experience.subcargo})</small>
                                             </h4>
                                             <div className=" ml-auto">{experience.empresa}</div>
                                         </div>

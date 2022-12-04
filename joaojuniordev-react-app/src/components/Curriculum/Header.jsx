@@ -28,17 +28,17 @@ const Header = (props)=>{
                             <ul className="list-unstyled">
                                 <li>
                                     <a href="/">
-                                        <span className="mdi mdi-email"> {user.email}</span>
+                                        <span className="curriculumIcons mdi mdi-email"> {user.email}</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href={uri_zap} target="_blank" rel="noreferrer">
-                                        <span className="mdi mdi-whatsapp"> {user.fone}</span>
+                                        <span className="curriculumIcons mdi mdi-whatsapp"> {user.fone}</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href={domain.href} target="_blank" rel="noreferrer">
-                                        <span className={domain.icon}> {domain.user}</span>
+                                        <span className={`curriculumIcons ${domain.icon}`}> {domain.user}</span>
                                     </a>
                                 </li>
                             </ul>
@@ -49,7 +49,7 @@ const Header = (props)=>{
                                 user.redesocial.map(({icon, href, user}, i)=>{
                                     return  <li key={i} className="mb-2">
                                                 <a href={`${href}${user}`} target="_blank" rel="noreferrer">
-                                                    <span className={`curriculumIcons ${icon}`}><small>{user}</small></span>
+                                                    <span className={`curriculumIcons ${icon}`}> {user}</span>
                                                 </a>
                                             </li>
                                 })     
