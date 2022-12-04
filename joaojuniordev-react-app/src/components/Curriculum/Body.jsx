@@ -78,7 +78,7 @@ const Body = (props) =>{
             </section>
             {/* MINICURSOS */}
             <section className="text-left mb-5">
-                <h3 className=" text-uppercase font-weight-bold pb-3 mb-3 mt-4">Minicourses</h3>
+                <h3 className=" text-uppercase font-weight-bold pb-3 mb-3 mt-4">Minicursos</h3>
                 {
                     shortCourses.map((course, i)=>{
                         return <div key={`${i}`} className="">

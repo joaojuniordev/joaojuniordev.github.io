@@ -55,14 +55,12 @@ footer {
     text-align: center;
     width: 100%;
     background-color: var(--dark-purple);
-    color: var(--white);
-    /* position: relative;
-    bottom: -18px; */
 }
 
 .buttonFooter span {
     padding: 7px 0;
     font-size: 0.62em;
+    color: var(--white);
 }
 
 /* CONPONENT QUERIES */

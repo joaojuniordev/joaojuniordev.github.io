@@ -19,9 +19,10 @@
       "dominio":{"icon":"mdi mdi-sphere" , "href":"https://dev.joaojr.tk", "user":"dev.joaojr.tk"},
       "redesocial":[
         {"icon":"mdi mdi-linkedin" , "href":"https://linkedin.com/in" , "user":"/joaojuniordev"},
-        {"icon":"mdi mdi-github"   , "href":"https://github.com"       , "user":"/joaojuniordev"},
-        {"icon":"mdi mdi-twitter"  , "href":"https://twitter.com"      , "user":"/joaojuniordev"},
-        {"icon":"mdi mdi-instagram", "href":"https://instagram.com"    , "user":"/joaojuniordev"}
+        {"icon":"mdi mdi-github"   , "href":"https://github.com"      , "user":"/joaojuniordev"},
+        {"icon":"mdi mdi-twitter"  , "href":"https://twitter.com"     , "user":"/joaojuniordev"},
+        {"icon":"mdi mdi-instagram", "href":"https://instagram.com"   , "user":"/joaojuniordev"},
+        {"icon":"mdi mdi-facebook" , "href":"https://facebook.com"    , "user":"/joaojuniordev"}
       ]
     },
     "summary": "Resuma sua carreira aqui...",
@@ -205,20 +206,26 @@
         "id": "1",
         "nome": "frontend",
         "tecnologias": [
-          { "nome": "HTML5", "nivel": 88 },
-          { "nome": "CSS3", "nivel": 78 },
-          { "nome": "JavaScript", "nivel": 69 },
+          { "nome": "HTML5", "nivel": 98 },
+          { "nome": "CSS3", "nivel": 85 },
+          { "nome": "JavaScript", "nivel": 72 },
           { "nome": "AngularJS", "nivel": 70 },
-          { "nome": "React", "nivel": 65 },
-          { "nome": "React Native", "nivel": 65 },
-          { "nome": "Bootstrap", "nivel": 63 },
-          { "nome": "jQuery", "nivel": 45 },
-          { "nome": "JSON", "nivel": 71 },
-          { "nome": "AJAX", "nivel": 45 }
+          { "nome": "React", "nivel": 77 },
+          { "nome": "Bootstrap", "nivel": 83 },
+          { "nome": "jQuery", "nivel": 47 },
+          { "nome": "JSON", "nivel": 81 },
+          { "nome": "AJAX", "nivel": 65 }
         ]
       },
       {
-        "id": "2",
+        "id":"2",
+        "nome":"front-end mobile",
+        "tecnologias":[
+          { "nome": "React Native", "nivel": 65 }
+        ]
+      },
+      {
+        "id": "3",
         "nome": "backend",
         "tecnologias": [
           { "nome": "Nodejs", "nivel": 76 },
@@ -232,11 +239,12 @@
           { "nome": "WildFly", "nivel": 62 },
           { "nome": "TomCat", "nivel": 50 },
           { "nome": "PostgreSQL", "nivel": 81 },
-          { "nome": "MySQL", "nivel": 80 }
+          { "nome": "MySQL", "nivel": 80 },
+          { "nome": "MongoDB", "nivel": 71 }
         ]
       },
       {
-        "id": "3",
+        "id": "4",
         "nome": "ourtos",
         "tecnologias": [
           { "nome": "Git", "nivel": 76 },

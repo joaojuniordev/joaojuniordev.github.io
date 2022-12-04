@@ -20,44 +20,44 @@ const Header = (props)=>{
                     <img className="mt-4 mb-3" src={avatar} alt="avatar"/>
                 </div>
                 <div className="curriculumInfo col-lg-10 col-md-9 col-sm-8 p-3">
-                        <div className="d-flex justify-content-between text-left ">
-                            <div className="userInfo">
-                                <h4 className="text-white text-uppercase">{ user.nome}</h4>
-                                <div className="mb-2 text-uppercase">{ user.profissao} { user.nivel} </div>
-                                <div className="mb-2 text-capitalize">{ user.stack} - { user.linguagens}</div>
-                                <ul className="list-unstyled">
-                                    <li>
-                                        <a href="/">
-                                            <span className="mdi mdi-email"> {user.email}</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href={uri_zap} target="_blank" rel="noreferrer">
-                                            <span className="mdi mdi-whatsapp"> {user.fone}</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href={domain.href} target="_blank" rel="noreferrer">
-                                            <span className={domain.icon}> {domain.user}</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="redesocial">
-                                <ul className="list-unstyled">
-                                {
-                                    user.redesocial.map(({icon, href, user}, i)=>{
-                                        return  <li key={i} className="mb-2">
-                                                    <a href={`${href}${user}`} target="_blank" rel="noreferrer">
-                                                        <span className={icon}> {user}</span>
-                                                    </a>
-                                                </li>
-                                    })     
-                                }                                            
-                                </ul>
-                            </div>
+                    <div className="d-flex justify-content-between text-left ">
+                        <div className="userInfo">
+                            <h4 className="text-white text-uppercase">{ user.nome}</h4>
+                            <div className="mb-2 text-uppercase">{ user.profissao} { user.nivel} </div>
+                            <div className="mb-2 text-capitalize">{ user.stack} - { user.linguagens}</div>
+                            <ul className="list-unstyled">
+                                <li>
+                                    <a href="/">
+                                        <span className="mdi mdi-email"> {user.email}</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href={uri_zap} target="_blank" rel="noreferrer">
+                                        <span className="mdi mdi-whatsapp"> {user.fone}</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href={domain.href} target="_blank" rel="noreferrer">
+                                        <span className={domain.icon}> {domain.user}</span>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                        <h4 className="curriculumUpdate text-uppercase">Versão: {update.version} | {update.date}</h4>
+                        <div className="redesocial">
+                            <ul className="list-unstyled">
+                            {
+                                user.redesocial.map(({icon, href, user}, i)=>{
+                                    return  <li key={i} className="mb-2">
+                                                <a href={`${href}${user}`} target="_blank" rel="noreferrer">
+                                                    <span className={`curriculumIcons ${icon}`}><small>{user}</small></span>
+                                                </a>
+                                            </li>
+                                })     
+                            }                                            
+                            </ul>
+                        </div>
+                    </div>
+                    <h5 className="curriculumUpdate">v{update.version} | {update.date}</h5>
                 </div>
             </div>
             <div className="curriculumSummary row">

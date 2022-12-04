@@ -12,7 +12,7 @@ const Curriculum = (props) => {
     // console.log('Curriculum', )
 
     return (
-        <div className={styles.curroculumPage}>
+        <div className={styles.curriculumPage}>
             <h1>Curriculum Vitae</h1>
             <MyCurriculum data={curriculum} />
         </div>
