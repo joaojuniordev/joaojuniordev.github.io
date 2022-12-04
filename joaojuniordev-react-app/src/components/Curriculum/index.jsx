@@ -27,7 +27,7 @@ const MyCurriculum = (props) => {
 
     return (
         <div className="curriculumBox container mx-auto text-white" >
-            <div className="curriculum-singlepage">
+            <div className="curriculumSinglepage">
                 <div className="curriculum flex-column">
                     <div className="container mx-auto">
                         {/* CABECALHO */}

@@ -1,7 +1,7 @@
 .curriculumBox {
     padding: 2px;
 }
-.curriculum-singlepage {
+.curriculumSinglepage {
     padding: 15px 15px;
     background-color: #e3e3e338;
 }
@@ -10,11 +10,23 @@
 .curriculum {
     word-wrap: break-word;/*nao deixa o texto sair da div*/
 }
+.curriculum h2,
+.curriculum h3,
+.curriculum h4{
+    font-size: 1.4rem;
+}
 /* Header */
 .curriculumHeader{
     display: flex;
     flex-wrap: wrap;
     color: #b1d7ff;
+}
+.curriculumIcons{
+    display: inline-flex;
+    align-items: center;
+}
+.curriculumIcons small{
+    font-size: 0.78rem;
 }
 .curriculumInfo {
     background-color: rgb(68 88 120);
@@ -52,6 +64,7 @@
 }
 .curriculum article h3 {
     border-bottom: 1px solid #434E5E;
+    font-size: 1.4rem;
 }
 .curriculum article small {
     font-size: 0.95rem;
@@ -65,7 +78,9 @@
 .curriculumSide .awards span {
     color: #cdad4e;
 }
-
+.curriculumSide h4{
+    text-transform: capitalize;
+}
 
 
 /* CONPONENT QUERIES */
@@ -82,6 +97,9 @@
     .curriculumAvatar img{
         max-width: 180px;
         max-height: 180px;
+    }
+    .curriculumHeader .userInfo{
+        padding-right: 10px;
     }
 }
 
