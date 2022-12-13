@@ -8,11 +8,14 @@ const MyCurriculum = (props) => {
     const {
         data = {},
     } = props
-    // console.log('MyCurriculum', )
+    // console.log('MyCurriculum ... ', data )
 
     const {
-        update={},
-        user={},
+        update={"version":"1.0", "date":"30-11-2022"},
+        user={
+            domain:{},
+            redesocial:[{"icon":"mdi mdi-linkedin" , "href":"#" , "user":"/username"},]
+        },
         summary="",
         formations=[],
         experiences=[],

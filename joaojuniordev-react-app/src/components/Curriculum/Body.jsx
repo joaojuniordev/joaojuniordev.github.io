@@ -21,20 +21,20 @@ const Body = (props) =>{
                                     <div className=" mb-2">
                                         <div className="d-flex flex-row justify-content-between pt-4">
                                             <h4 className="d-flex font-weight-bold mb-1">
-                                                {experience.cargo}<small className="text-muted">({experience.subcargo})</small>
+                                                {experience.position}<small className="text-muted">({experience.subfunction})</small>
                                             </h4>
-                                            <div className=" ml-auto">{experience.empresa}</div>
+                                            <div className=" ml-auto">{experience.company}</div>
                                         </div>
-                                        <div className="">{experience.dataadmissao} - {experience.datademissao}</div>
+                                        <div className="">{experience.admissionDate} - {experience.dismissalDate}</div>
                                     </div>
                                     <div >
-                                        <p>{experience.descricaofuncao}</p>
+                                        <p>{experience.description}</p>
                                         <h5 className=" font-weight-bold">Tecnologias utilizadas:</h5>
                                         <div className="d-lg-inline-flex">
                                             <ul className="d-flex flex-wrap list-inline inline-req">
                                                 {
-                                                    experience.tecnologias.map((tecnologia, i)=>{
-                                                        return <li key={`${i}`} className="pr-1"><span className="badge rounded-pill bg-primary badge-pill">{tecnologia}</span></li>
+                                                    experience.technologies.map((technology, i)=>{
+                                                        return <li key={`${i}`} className="pr-1"><span className="badge rounded-pill bg-primary badge-pill">{technology}</span></li>
                                                     })
                                                 }
                                             </ul>
@@ -59,15 +59,15 @@ const Body = (props) =>{
                                         <article className=" position-relative">                                
                                             <div className=" mb-2">
                                                 <div className="d-flex flex-row flex-md-row justify-content-between  pt-4">
-                                                    <h4 className=" font-weight-bold mb-1">{course.nome}</h4>
-                                                    <div className=" ml-auto">{course.empresa}</div>
+                                                    <h4 className=" font-weight-bold mb-1">{course.name}</h4>
+                                                    <div className=" ml-auto">{course.company}</div>
                                                 </div>
-                                                <div className="">{course.datainicio} - {course.datatermino}</div>
+                                                <div className="">{course.startDate} - {course.endDate}</div>
 
-                                                <div className=" ml-auto">{course.cargahoraria}</div>
+                                                <div className=" ml-auto">{course.workload}</div>
                                             </div>
                                                 <div className="resume-timeline-item-desc">
-                                                    <p>{course.descricaofuncao}</p>												
+                                                    <p>{course.description}</p>												
                                             </div>
 
                                         </article>
@@ -86,15 +86,15 @@ const Body = (props) =>{
                                         <article className=" position-relative">                                
                                             <div className=" mb-2">
                                                 <div className="d-flex flex-row flex-md-row justify-content-between pt-4">
-                                                    <h4 className=" font-weight-bold mb-1">{course.nome }</h4>
+                                                    <h4 className=" font-weight-bold mb-1">{course.name }</h4>
                                                     <div className=" ml-auto">{course.autor }</div>
                                                 </div>
-                                                <div className="">{course.datainicio} - {course.datatermino}</div>
+                                                <div className="">{course.startDate} - {course.endDate}</div>
 
-                                                <div className=" ml-auto">{course.cargahoraria }</div>
+                                                <div className=" ml-auto">{course.workload }</div>
                                             </div>
                                                 <div className="resume-timeline-item-desc">
-                                                    <p>{course.tecnologias}</p>												
+                                                    <p>{course.technologies}</p>												
                                             </div>
                                         </article>
                                     </div>
@@ -113,15 +113,15 @@ const Body = (props) =>{
                                         <article className=" position-relative">                                
                                             <div className=" mb-2">
                                                 <div className="d-flex flex-row flex-md-row justify-content-between pt-4">
-                                                    <h4 className=" font-weight-bold mb-1">{extra.cargo}</h4>
-                                                    <div className=" ml-auto">{extra.empresa}</div>
+                                                    <h4 className=" font-weight-bold mb-1">{extra.position}</h4>
+                                                    <div className=" ml-auto">{extra.company}</div>
                                                 </div>
-                                                <div className="">{extra.dataadmissao} - {extra.datatermino}</div>
+                                                <div className="">{extra.startDate} - {extra.endDate}</div>
 
-                                                <div className=" ml-auto">{extra.cargahoraria}</div>
+                                                <div className=" ml-auto">{extra.workload}</div>
                                             </div>
                                                 <div className="resume-timeline-item-desc">
-                                                    <p>{extra.descricaofuncao}</p>												
+                                                    <p>{extra.description}</p>												
                                             </div>
 
                                         </article>

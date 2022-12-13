@@ -20,9 +20,9 @@ const Side = (props)=>{
                         return <div key={`${i}`} className="r">
                             <ul className="list-unstyled">
                                 <li className="mb-2">
-                                    <h4 className=" font-weight-bold">{formation.descricao} </h4>
-                                    <div className="text-uppercase">{formation.instituicao}</div>
-                                    <div className="">({formation.datainicio} - {formation.datatermino})</div>
+                                    <h4 className=" font-weight-bold">{formation.description} </h4>
+                                    <div className="text-uppercase">{formation.institution}</div>
+                                    <div className="">({formation.startDate} - {formation.endDate})</div>
                                 </li>
                             </ul>
                         </div>                                            
@@ -35,14 +35,14 @@ const Side = (props)=>{
             {
                 skills.map((skill, i)=>{
                     return <div key={`${i}`} className="" >
-                                <h4 className="r font-weight-bold">{skill.nome}</h4>
+                                <h4 className="r font-weight-bold">{skill.name}</h4>
                                 <ul className="list-unstyled mb-4">
                                 {
-                                    skill.tecnologias.map((tecnologia, i)=>{
+                                    skill.technologies.map((tecnology, i)=>{
                                         return  <li key={i} className="mb-2">
-                                                    <div className="">{tecnologia.nome}</div>
+                                                    <div className="">{tecnology.name}</div>
                                                     <div className="progress ">                                                                    
-                                                        <div className="progress-bar " role="progressbar" style={{backgroundColor:"#66cb8c",width:`${tecnologia.nivel}%`, ariaValueNow:"25", ariaValueMin:"0", ariaValueMax:"100"}}></div>
+                                                        <div className="progress-bar " role="progressbar" style={{backgroundColor:"#66cb8c",width:`${tecnology.nivel}%`, ariaValueNow:"25", ariaValueMin:"0", ariaValueMax:"100"}}></div>
                                                     </div>
                                                 </li>                                                            
                                     })
@@ -64,9 +64,9 @@ const Side = (props)=>{
                                                 <span className="mdi mdi-trophy"></span>
                                             </div>   
                                             <div className="col-md-10 m-1">                         
-                                                <div className="">{award.nome}</div>
-                                                <div className="">{award.descricao}</div>
-                                                <div className="">({award.datainicio} - {award.datatermino})</div>			
+                                                <div className="">{award.name}</div>
+                                                <div className="">{award.description}</div>
+                                                <div className="">({award.startDate} - {award.endDate})</div>			
                                             </div> 							
                                         </li>
                                     </ul>
@@ -80,7 +80,7 @@ const Side = (props)=>{
                     <ul className="list-unstyled ">
                 {
                     languages.map((language, i)=>{
-                        return <li key={i} className="mb-2"><span className=" font-weight-bold">{language.descricao}</span> <small className="text-muted font-weight-normal">({language.status})</small></li>
+                        return <li key={i} className="mb-2"><span className=" font-weight-bold">{language.description}</span> <small className="text-muted font-weight-normal">({language.status})</small></li>
                     })    
                 }
                     </ul>
@@ -91,7 +91,7 @@ const Side = (props)=>{
                     <ul className="list-unstyled ">
                 {
                     interests.map((interest, i)=>{
-                        return <li key={i} className="mb-1">{interest.descricao}</li>
+                        return <li key={i} className="mb-1">{interest.description}</li>
                     })    
                 }
                     </ul>

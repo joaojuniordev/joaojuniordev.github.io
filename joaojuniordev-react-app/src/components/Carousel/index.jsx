@@ -10,7 +10,7 @@ const MyCarousel = (props) => {
     } = props
 
     return (
-        <UncontrolledCarousel className={styles.carousel} style={style}        
+        <UncontrolledCarousel className={styles.carousel} style={style}
         items={slides}             
         />
     )

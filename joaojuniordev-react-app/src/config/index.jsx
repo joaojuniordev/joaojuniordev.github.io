@@ -35,7 +35,7 @@ const WHATSAPP = {
   URI_MODEL:"https://web.whatsapp.com/send?phone=+55911112222&text=Ola%20dev,%20tudo%20bem?"
 }
 
-// console.log("API... CONFIG", { SERVER })
+// console.log("API... CONFIG", { CURRICULUM })
 
 export { 
   

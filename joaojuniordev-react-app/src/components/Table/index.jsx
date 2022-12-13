@@ -10,10 +10,10 @@ const MyTable = (props) => {
     return (
         <div className={styles.table} style={style}>
             <Table 
-                hover
-                responsive
-                size="sm"
-                striped
+            hover
+            responsive
+            size="sm"
+            striped
             >
                 <thead>
                     <tr>
@@ -27,7 +27,7 @@ const MyTable = (props) => {
                 <tbody>
                     {
                         tableInfo.tbody.map((row,i)=>{   
-                            return getRow(row)
+                            return getRow(row, i)
                         })
                     }
                 </tbody>
@@ -40,9 +40,9 @@ const getRow =(row=[], i)=>{
     return(
         <tr key={i}>
         {
-            row.map((th, i)=>{
-                const scope = (i===0) ? "row":false
-                return <th key={i} scope={scope}>{th}</th>
+            row.map((th, j)=>{
+                const scope = (j===0) ? "row":""
+                return <th key={j} scope={scope}>{th}</th>
             })
         }
         </tr>

@@ -31,5 +31,9 @@
     --pc-primary: #004BAC;
     --pc-blue: #63B3ED;
     --pc-light-blue: #D0DFEA;
+
+    /* STATUS */
+    --online: #63eb10;
+    --offline: #FC3638;
 }
 
