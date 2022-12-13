@@ -21,7 +21,7 @@ const Curriculum = (props) => {
     useEffect(() =>{
         getCurriculum(id,setResume)
     },[id, setResume])
-    console.log('Curriculum ... ', `${CURRICULUM.URI}/${id}`, resume)
+    // console.log('Curriculum ... ', `${CURRICULUM.URI}/${id}`, resume)
 
     return (
         <div className={styles.curriculumPage} style={style}>
