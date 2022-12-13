@@ -30,7 +30,7 @@ const Curriculum = (props) => {
             style={{color: resume.online ? "var(--online)":"var(--offline)"}}>
                 { resume.online ? " online":" offline"}
             </span>
-            <MyCurriculum data={ resume.backOnline ? resume : data} />
+            <MyCurriculum data={ resume.online ? resume:data } />
         </div>
     )
 }
