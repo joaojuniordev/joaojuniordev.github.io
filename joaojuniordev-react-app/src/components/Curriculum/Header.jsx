@@ -9,7 +9,7 @@ const Header = (props)=>{
         user={},
         summary=""
    } = props
-
+//    console.log("Header ...", update)
     const uri_zap = `${WHATSAPP.URI}+5585911112222&text=Olá dev, tudo bem???`
 
     return(
@@ -56,7 +56,18 @@ const Header = (props)=>{
                             </ul>
                         </div>
                     </div>
-                    <h5 className="curriculumUpdate">v{update?.version || "0.1"} | {update?.date||"25/12/2022"}</h5>
+                    <div className={"curriculumUpdate"}>
+                        <h5 className="curriculumVersion">
+                            <mark>v{update?.version || "0.1"}</mark> | <span>{update?.date||"25/12/2022"}</span>
+                            <span className={`curriculumOnline mdi mdi-cloud`} 
+                            style={{
+                                color: update?.online ? "var(--online)":"var(--offline-light)",
+                                textDecoration: update?.online ? "none":"line-through"
+                            }} >
+                                { " API"}
+                            </span>
+                        </h5>
+                    </div>
                 </div>
             </div>
             <div className="curriculumSummary row">

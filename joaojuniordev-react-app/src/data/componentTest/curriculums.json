@@ -1,6 +1,6 @@
 [
   {
-    "update":{"version":"1.0", "date":"30-11-2022"},
+    "update":{"version":"1.0", "date":"30/11/2022", "online":false},
     "user": {
       "id": "1",
       "name": "joão júnior",

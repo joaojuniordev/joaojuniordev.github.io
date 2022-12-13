@@ -16,10 +16,6 @@
     text-shadow: 2px 2px 3px #16171a;
     color: var(--secondary);
 }
-.backStatus{
-    text-transform: capitalize;
-    color: var(--online);
-}
 
 
 

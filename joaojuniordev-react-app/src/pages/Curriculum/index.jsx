@@ -26,11 +26,7 @@ const Curriculum = (props) => {
     return (
         <div className={styles.curriculumPage} style={style}>
             <h1> {"Curriculum Vitae"} </h1>
-            <span className={`${styles.backStatus} mdi mdi-server`} 
-            style={{color: resume.online ? "var(--online)":"var(--offline)"}}>
-                { resume.online ? " online":" offline"}
-            </span>
-            <MyCurriculum data={ resume.online ? resume:data } />
+            <MyCurriculum data={ resume.update?.online ? resume:data } />
         </div>
     )
 }
@@ -40,10 +36,10 @@ const getCurriculum = (id, setResume) =>{
         .then(respAx=>respAx.data)
         .then(respAPI=>respAPI.data)
         .then(curriculum=>{ 
-            setResume({online:true , ...curriculum }) 
+            setResume({...curriculum, update:{ ...curriculum.update, online:true } }) 
         })
         .catch(e=>{
-            setResume({online:false, }) 
+            setResume({ update:{ online:false } }) 
             console.log('APIError ### ', e.message)
         })
 }

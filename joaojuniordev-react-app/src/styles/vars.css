@@ -35,5 +35,6 @@
     /* STATUS */
     --online: #63eb10;
     --offline: #FC3638;
+    --offline-light: #b8383a;
 }
 
